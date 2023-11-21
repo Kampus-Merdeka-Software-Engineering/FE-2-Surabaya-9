@@ -1,0 +1,371 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 151.2rem;
+}.header-8Dw {
+  box-sizing: border-box;
+  padding: 4.375rem 9.8rem 16.6rem 6.038rem;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/bg.png');
+  background-color: #ffffff;
+}
+.header-8Dw .auto-group-lecy-q8M {
+  margin-bottom: 5rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.header-8Dw .auto-group-lecy-q8M .menu-Za9 {
+  margin: 0rem 11.438rem 1.225rem 0rem;
+  width: 2.625rem;
+  height: 1.75rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.header-8Dw .auto-group-lecy-q8M .language-VCu {
+  margin: 0rem 1.6rem 0.125rem 0rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.2125;
+  text-transform: capitalize;
+  color: #ffffff;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.header-8Dw .auto-group-lecy-q8M .chevron-down-zQZ {
+  margin: 0.275rem 6.7rem 0rem 0rem;
+  width: 1rem;
+  height: 0.5rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.header-8Dw .auto-group-lecy-q8M .idr-W81 {
+  margin: 0.575rem 1.8rem 0rem 0rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.2125;
+  text-transform: capitalize;
+  color: #ffffff;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.header-8Dw .auto-group-lecy-q8M .chevron-down-p8h {
+  margin: 0.275rem 41.8rem 0rem 0rem;
+  width: 1rem;
+  height: 0.5rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.header-8Dw .auto-group-lecy-q8M .service-9Rs {
+  margin: 0.975rem 8.85rem 0rem 0rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.2125;
+  color: #ffffff;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.header-8Dw .auto-group-lecy-q8M .check-square-etR {
+  margin: 0.875rem 0.767rem 0rem 0rem;
+  width: 1.5833rem;
+  height: 1.5rem;
+  position: relative;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.header-8Dw .auto-group-lecy-q8M .my-booking-8Ho {
+  margin: 0.975rem 8.3rem 0rem 0rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.2125;
+  text-transform: capitalize;
+  color: #ffffff;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.header-8Dw .auto-group-lecy-q8M .vector-1cV {
+  margin: 0.875rem 1.3rem 0rem 0rem;
+  width: 2rem;
+  height: 2rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.header-8Dw .auto-group-lecy-q8M .saved-uxm {
+  margin: 0.975rem 6.933rem 0rem 0rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.2125;
+  color: #ffffff;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.header-8Dw .auto-group-lecy-q8M .user-ZnR {
+  margin: 0.875rem 1.333rem 0rem 0rem;
+  width: 1.3333rem;
+  height: 1.5rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.header-8Dw .auto-group-lecy-q8M .login-gc9 {
+  margin-top: 0.975rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.2125;
+  text-transform: capitalize;
+  color: #ffffff;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.header-8Dw .harris-hotel-convention-Boo {
+  margin-bottom: 19.5rem;
+  width: 100%;
+  max-width: 19.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3.4rem;
+  font-weight: 800;
+  line-height: 1.2125;
+  font-style: italic;
+  color: #ffffff;
+  font-family: Inter, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.header-8Dw .harris-lifestyle-with-an-art-deco-hint-malang-touch-for-business-and-leisure-imatharris-U2D {
+  margin-bottom: 20.25rem;
+  width: 100%;
+  max-width: 106.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 4rem;
+  font-weight: 800;
+  line-height: 1.2125;
+  font-style: italic;
+  color: #ffffff;
+  font-family: Inter, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.header-8Dw .auto-group-3b6r-Lq7 {
+  margin: 0rem 3.8rem 0rem 7.563rem;
+  width: calc(100% - 11.3625rem);
+  height: 7.4rem;
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 5.5rem;
+  flex-shrink: 0;
+}
+.header-8Dw .auto-group-3b6r-Lq7 .auto-group-kcuz-Efb {
+  box-sizing: border-box;
+  padding: 0.9rem 11.8rem 1.05rem 7.55rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  border-top: solid 0.1rem #7d7d7d;
+  flex-shrink: 0;
+}
+.header-8Dw .auto-group-3b6r-Lq7 .auto-group-kcuz-Efb .enter-a-city-y7P {
+  margin: 0.25rem 7.15rem 0rem 0rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 1.2125;
+  text-transform: capitalize;
+  color: rgba(0, 0, 0, 0.4199999869);
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.header-8Dw .auto-group-3b6r-Lq7 .auto-group-kcuz-Efb .auto-group-6xpv-siZ {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.header-8Dw .auto-group-3b6r-Lq7 .auto-group-kcuz-Efb .auto-group-6xpv-siZ .check-in-37F {
+  margin-bottom: 0.95rem;
+  display: flex;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.2125;
+  text-transform: capitalize;
+  color: #807d7d;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.header-8Dw .auto-group-3b6r-Lq7 .auto-group-kcuz-Efb .auto-group-6xpv-siZ .tue-7nov-wTX {
+  display: flex;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.2125;
+  text-transform: capitalize;
+  color: #000000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.header-8Dw .auto-group-3b6r-Lq7 .line-2-Fj7 {
+  margin-right: 1.3rem;
+  width: 0.1rem;
+  height: 7.4rem;
+  background-color: #7d7d7d;
+  flex-shrink: 0;
+}
+.header-8Dw .auto-group-3b6r-Lq7 .auto-group-z329-NHw {
+  margin: 1.05rem 10.4rem 1.25rem 0rem;
+  height: calc(100% - 2.3rem);
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.header-8Dw .auto-group-3b6r-Lq7 .auto-group-z329-NHw .check-out-JBb {
+  margin-bottom: 0.6rem;
+  display: flex;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.2125;
+  text-transform: capitalize;
+  color: #817e7e;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.header-8Dw .auto-group-3b6r-Lq7 .auto-group-z329-NHw .wed-8-nov-E5F {
+  display: flex;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.2125;
+  text-transform: capitalize;
+  color: #000000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.header-8Dw .auto-group-3b6r-Lq7 .line-3-kpH {
+  width: 0.1rem;
+  height: 7.4rem;
+  background-color: #7d7d7d;
+  flex-shrink: 0;
+}
+.header-8Dw .auto-group-3b6r-Lq7 .auto-group-sigh-793 {
+  box-sizing: border-box;
+  padding: 0.9rem 2.4rem 1.3rem 1.3rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.header-8Dw .auto-group-3b6r-Lq7 .auto-group-sigh-793 .auto-group-zmtw-RQd {
+  margin: 0.15rem 11rem 0.2rem 0rem;
+  width: 15.4rem;
+  height: calc(100% - 0.35rem);
+  flex-shrink: 0;
+}
+.header-8Dw .auto-group-3b6r-Lq7 .auto-group-sigh-793 .auto-group-zmtw-RQd .rooms-x9f {
+  margin-bottom: 0.35rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.2125;
+  text-transform: capitalize;
+  color: #817e7e;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.header-8Dw .auto-group-3b6r-Lq7 .auto-group-sigh-793 .auto-group-zmtw-RQd .room-2-guest-Sad {
+  display: flex;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.2125;
+  text-transform: capitalize;
+  color: #000000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.header-8Dw .auto-group-3b6r-Lq7 .auto-group-sigh-793 .auto-group-rwrx-neV {
+  box-sizing: border-box;
+  padding: 1.15rem 3rem 1.05rem 3.175rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(180deg, rgba(183, 165, 83, 0.8100000024) -0%, rgba(255, 167, 1, 0.2235937566) 72.4%, rgba(236, 169, 60, 0) 100%);
+  border-radius: 5rem;
+  flex-shrink: 0;
+}
+.header-8Dw .auto-group-3b6r-Lq7 .auto-group-sigh-793 .auto-group-rwrx-neV .search-KuK {
+  margin: 0rem 2.975rem 0.5rem 0rem;
+  width: 2.25rem;
+  height: 2.25rem;
+  position: relative;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.header-8Dw .auto-group-3b6r-Lq7 .auto-group-sigh-793 .auto-group-rwrx-neV .search-TEq {
+  display: flex;
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 1.2125;
+  text-transform: capitalize;
+  color: #000000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}

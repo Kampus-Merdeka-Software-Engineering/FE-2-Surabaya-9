@@ -1,0 +1,23 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 151.2rem;
+}.content-Nvm {
+  width: 100%;
+  height: 98.2rem;
+  overflow: hidden;
+  position: relative;
+  background: linear-gradient(180deg, #b09859 0%, #ffffff 100%);
+}
