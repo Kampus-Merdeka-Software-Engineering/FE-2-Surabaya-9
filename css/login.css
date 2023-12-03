@@ -1,0 +1,91 @@
+/* Styling for Login Page */
+
+body {
+    font-family: 'Galdeano-Regular', sans-serif;
+    background: #937831;
+    margin: 0;
+    padding: 80px;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 25px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+h2 {
+    margin: 0 0 40px;
+    margin-top: 20px;
+    font-family: 'Galdeano-Regular', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    font-size: 18px;
+    /* Add relative positioning */
+}
+
+h2::after {
+    content: '';
+    display: block;
+    width: 150px;
+    /* Adjust the width of the line as needed */
+    height: 2px;
+    /* Adjust the height/thickness of the line as needed */
+    background-color: #937831;
+    /* Line color */
+    margin-top: 8px;
+    /* Adjust the distance between the text and the line as needed */
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+button {
+    width: 60%;
+    margin-top: 28px;
+    padding: 10px;
+    background-color: #937831;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+p {
+    padding: 24px;
+    padding-top: 10px;
+    font: 400 20px 'Galdeano-Regular', sans-serif;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: rgb(121, 119, 119);
+}
+
+a {
+    color: #937831;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#loginMessage {
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+}

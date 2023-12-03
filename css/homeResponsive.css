@@ -1,0 +1,65 @@
+/* Responsiveness for larger screens */
+
+@media only screen and (min-width: 601px) {
+    .Content img {
+        height: 100%;
+    }
+    .ContentHeading {
+        font-size: 38px;
+        margin-bottom: 40px;
+    }
+    .SaleInfo,
+    .Discount,
+    .ShopNowButton {
+        font-size: 2vw;
+        margin-top: 20px;
+    }
+    .FreeShipping {
+        font-size: 1.5vw;
+        margin-top: 20px;
+    }
+    .hello-customers {
+        left: 50%;
+        top: 180px;
+    }
+    .hariss-hotel-convention {
+        left: 50%;
+        top: 220px;
+    }
+    .descWel {
+        left: 50%;
+        top: 250px;
+    }
+}
+
+
+/* Responsiveness for smaller screens */
+
+@media only screen and (max-width: 600px) {
+    .Content img {
+        height: auto;
+        /* Set height to auto for smaller screens */
+    }
+    .ContentHeading {
+        font-size: 20px;
+    }
+    .SaleInfo,
+    .Discount,
+    .FreeShipping,
+    .ShopNowButton {
+        font-size: 12px;
+    }
+    .rectangle-10 {
+        height: auto;
+        /* Set height to auto for smaller screens */
+        padding-bottom: 20px;
+        /* Adjust padding-bottom for smaller screens */
+    }
+    .hello-customers,
+    .hariss-hotel-convention,
+    .descWel {
+        left: 50%;
+        margin-left: -50%;
+        /* Center the absolute-positioned elements */
+    }
+}

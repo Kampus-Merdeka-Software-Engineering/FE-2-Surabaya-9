@@ -1,0 +1,77 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.PaymentContainer {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.OrderSummary {
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+.OrderSummary {
+    font-family: serif;
+}
+
+h4 {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 4px;
+    font-weight: bold;
+}
+
+ul {
+    padding: 0;
+}
+
+ul li {
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul li:last-child {
+    margin-bottom: 24px;
+}
+
+hr {
+    margin-top: 20px;
+}
+
+#payButton {
+    background-color: #b27400;
+    color: white;
+    border: none;
+    padding: 8px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+#payButton:hover {
+    background-color: #4f3400;
+}

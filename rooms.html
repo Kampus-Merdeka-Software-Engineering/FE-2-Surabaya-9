@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css/rooms.css">
+
+</head>
+
+<body>
+    <!-------------------- START NAVBAR SECTION -------------------->
+    <div class="Navbar">
+        <div class="Logo">
+            <img src="Images/logoHotel.png" alt="Logo" width="120">
+        </div>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="rooms.html" class="active">Rooms</a></li>
+            <li><a href="myBooking.html">My Booking</a></li>
+            <li><a href="saved.html">Saved</a></li>
+            <li><a href="aboutUs.html">About Us</a></li>
+        </ul>
+        <div class="ProfileInfo">
+            <img src="Images/profile-icon.png" alt="Profile Icon" class="ProfileIcon">
+            <span id="userName">Username</span>
+        </div>
+    </div>
+    <!-------------------- END NAVBAR SECTION -------------------->
+
+    <!-------------------- START CATEGORIES SECTION -------------------->
+    <div class="Content">
+        <h4 class="SubFilter">Room Categories</h4>
+        <div class="CategoryFilter">
+            <select id="categorySelect">
+                <option value="Standard">Standard Room</option>
+                <option value="Deluxe">Deluxe Room</option>
+                <option value="Suite">Suite</option>
+            </select>
+        </div>
+        <h4 class="SubProduct">Available Rooms</h4>
+        <div class="ProductCategory" id="Rooms">
+            <!-- automatically display, generate room card from js -->
+        </div>
+        <hr>
+
+        <h4 class="SubHeadCart">Booking Details</h4>
+        <div class="BookingDetails">
+            <ul id="cartItems">
+                <!-- Selected items will be displayed here -->
+            </ul>
+            <div class="TotalPrice">
+                Total: <span id="totalPrice">0</span>
+            </div>
+            <button id="bookButton">Book Now</button>
+        </div>
+    </div>
+    <!-------------------- END CATEGORIES SECTION -------------------->
+
+    <!-------------------- START JS SECTION -------------------->
+    <script src="Js/rooms.js"></script>
+    <!-------------------- END JS SECTION -------------------->
+</body>
+
+</html>

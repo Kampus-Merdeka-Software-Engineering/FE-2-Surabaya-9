@@ -1,0 +1,164 @@
+/* Setting Page without white space(Biar full ga ada space) */
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Galdeano-Regular', sans-serif;
+}
+
+
+/* =========== NAVBAR STYLING ============*/
+
+.Navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(23, 16, 9);
+    padding: 20px;
+}
+
+.Logo {
+    margin-left: 40px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    margin: 0 20px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+a.active {
+    color: rgb(192, 138, 20);
+}
+
+.ProfileInfo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 40px;
+    color: #fff;
+    font-size: 12px;
+}
+
+.ProfileIcon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+
+/* =========== ARTICLE STYLING ============*/
+
+.aboutFrame {
+    margin-top: 20px;
+    background-color: #f8fff8;
+    padding-left: 40px;
+}
+
+.aboutContent {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    /* Reverse the direction to have the image on the right */
+}
+
+.aboutImage {
+    flex: 1;
+    padding: 10px;
+    position: relative;
+}
+
+.aboutImage img {
+    max-width: 100%;
+    height: auto;
+    margin-left: 90px;
+}
+
+.aboutText {
+    flex: 1;
+    padding: 10px;
+}
+
+h2 {
+    color: #937831;
+    font-size: 32px;
+    margin-bottom: 0;
+    font-family: 'Galdeano-Regular', sans-serif;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: 'Galdeano-Regular', sans-serif;
+    opacity: 70%;
+    text-align: justify;
+}
+
+
+/* =========== FOOTER STYLING ============*/
+
+.Sponsor {
+    background: #333;
+    padding-bottom: 20px;
+}
+
+.LogoImage {
+    max-width: 60%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.Footer {
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 40px;
+    padding-bottom: 10px;
+}
+
+.FooterContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.FooterLogo {
+    margin-right: 20px;
+}
+
+.FooterLinks ul {
+    list-style: none;
+    padding: 0;
+}
+
+.FooterLinks li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.SocialIcons a {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 10px;
+}
+
+.CopyrightText {
+    font-size: 12px;
+    font-style: italic;
+    margin-top: 40px;
+}

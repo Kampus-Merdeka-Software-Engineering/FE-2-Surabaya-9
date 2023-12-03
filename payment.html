@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Css/payment.css">
+    <title>Payment</title>
+</head>
+
+<body>
+
+
+    <!-------------------- PAYMENT DETAILS SECTION -------------------->
+    <div class="PaymentContainer">
+        <h2>Booking Reciept</h2>
+        <ul id="cartContents">
+            <!-- Product list in cart -->
+        </ul>
+        <h2>Payment Details</h2>
+        <div class="OrderSummary">
+            <div class="ProductDetails">
+                <ul id="cartItems">
+                    <!-- Selected items will be displayed here -->
+                </ul>
+            </div>
+            <div class="TotalPrice">
+                <h4>Total Price:</h4>
+                <span id="totalPrice">0</span>
+            </div>
+            <div class="Discount">
+                <h4>Discount:</h4>
+                <span id="discount">0</span>
+            </div>
+            <hr>
+            <div class="FinalTotal">
+                <h4>Payments Total:</h4>
+                <span id="finalTotal">0</span>
+            </div>
+        </div>
+        <button id="payButton">Pay</button>
+    </div>
+
+    <!-------------------- JS SECTION -------------------->
+    <script src="Js/payment.js"></script>
+</body>
+
+</html>

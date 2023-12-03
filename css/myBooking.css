@@ -1,0 +1,145 @@
+/* Add this to your existing CSS file or create a new one */
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Galdeano-Regular', sans-serif;
+}
+
+.Navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(23, 16, 9);
+    padding: 20px;
+}
+
+.Logo {
+    margin-left: 40px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    margin: 0 20px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+a.active {
+    color: rgb(192, 138, 20);
+}
+
+.ProfileInfo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 40px;
+    color: #fff;
+    font-size: 12px;
+}
+
+.ProfileIcon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.MyBookingContainer {
+    text-align: justify;
+    padding: 40px;
+}
+
+.Content {
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.BookingCard {
+    position: relative;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    background-color: #fff;
+    transition: transform 0.3s ease;
+    margin-bottom: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-right: 24px;
+    /* Ensure the card stays in a single column */
+}
+
+.BookingCard:hover {
+    transform: scale(1.03);
+}
+
+.BookingCard .RoomImage {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 1px solid #ddd;
+}
+
+.BookingCard .RoomDetail {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    padding: 16px;
+}
+
+.BookingCard .RoomName {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.BookingCard .RoomPrice {
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(220, 91, 4);
+    font-style: italic;
+    margin-top: 8px;
+    margin-bottom: 24px;
+}
+
+.BookingCard .MaxOccupancy {
+    font-size: 14px;
+    margin-top: -40px;
+    margin-bottom: 24px;
+    align-self: flex-end;
+    color: #555;
+    font-style: italic;
+}
+
+.BookingCard .CancelButton {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.BookingCard .CancelButton:hover {
+    background-color: #bb2d3b;
+}

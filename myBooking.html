@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Css/myBooking.css">
+    <title>My Booking</title>
+</head>
+
+<body>
+    <!-------------------- START NAVBAR SECTION -------------------->
+    <div class="Navbar">
+        <div class="Logo">
+            <img src="Images/logoHotel.png" alt="Logo" width="120">
+        </div>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="rooms.html">Rooms</a></li>
+            <li><a href="myBooking.html" class="active">My Booking</a></li>
+            <li><a href="saved.html">Saved</a></li>
+            <li><a href="aboutUs.html">About Us</a></li>
+        </ul>
+        <div class="ProfileInfo">
+            <img src="Images/profile-icon.png" alt="Profile Icon" class="ProfileIcon">
+            <span id="userName">Username</span>
+        </div>
+    </div>
+    <!-------------------- END NAVBAR SECTION -------------------->
+
+    <!-------------------- MY BOOKING SECTION -------------------->
+    <div class="MyBookingContainer">
+        <h2>My Booking History</h2>
+        <ul id="bookingHistory">
+            <!-- Booked items will be displayed here -->
+        </ul>
+    </div>
+
+    <!-------------------- JS SECTION -------------------->
+    <script src="Js/myBooking.js"></script>
+
+</body>
+
+</html>

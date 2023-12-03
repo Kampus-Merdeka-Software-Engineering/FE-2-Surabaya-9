@@ -1,0 +1,286 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Galdeano-Regular', sans-serif;
+}
+
+
+/* =========== NAVBAR STYLING ============*/
+
+.Navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(23, 16, 9);
+    padding: 20px;
+}
+
+.Logo {
+    margin-left: 40px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    margin: 0 20px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+a.active {
+    color: rgb(192, 138, 20);
+}
+
+.ProfileInfo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 40px;
+    color: #fff;
+    font-size: 12px;
+}
+
+.ProfileIcon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+
+/* =========== CARD STYLING ============*/
+
+.Content {
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Style the product categories filter */
+
+.SubFilter {
+    margin-bottom: 8px;
+}
+
+.CategoryFilter select {
+    font-size: 16px;
+    padding-right: 30px;
+    padding-left: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-bottom: 32px;
+    border-radius: 8px;
+}
+
+.SubProduct {
+    margin-bottom: 8px;
+}
+
+.ProductCategory {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.Product {
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(255, 236, 236, 0.671);
+}
+
+hr {
+    margin-top: 60px;
+}
+
+.SubHeadCart {
+    margin-top: 10px;
+}
+
+.BookingDetails {
+    margin-top: 10px;
+}
+
+.BookingDetails ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    /* vertical styling card */
+}
+
+.BookingDetails ul li {
+    border: 1px solid #ccc;
+    margin: 5px 0;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+}
+
+.Product img {
+    max-width: 100%;
+}
+
+.produk-detail {
+    max-width: 600px;
+    margin: 100px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+
+/* room-cards.css */
+
+.Product.RoomCard {
+    position: relative;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    background-color: #fff;
+    transition: transform 0.3s ease;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.Product.RoomCard:hover {
+    transform: scale(1.03);
+}
+
+.Product.RoomCard img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 1px solid #ddd;
+}
+
+.ProductDetail {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    /* Ensure ProductDetail takes full height */
+    padding: 16px;
+}
+
+.RoomDetail {
+    display: flex;
+    flex-direction: column;
+}
+
+.RoomDetail .RoomName {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.RoomDetail .RoomPrice {
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(220, 91, 4);
+    font-style: italic;
+    margin-top: 8px;
+}
+
+.RoomDetail .MaxOccupancy {
+    font-size: 14px;
+    margin-top: -40px;
+    margin-bottom: 24px;
+    /* Push MaxOccupancy to the bottom */
+    align-self: flex-end;
+    /* Align MaxOccupancy to the flex-end */
+    color: #555;
+    font-style: italic;
+}
+
+.RoomDetail .Description {
+    font-size: 14px;
+    margin-top: 8px;
+    color: #555;
+}
+
+.AddToCart {
+    background: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.AddToCart:hover {
+    background: #0056b3;
+}
+
+.RoomDetail .SaveIcon {
+    font-size: 20px;
+    cursor: pointer;
+    outline: 2px solid transparent;
+    /* Add an initial transparent outline */
+    transition: color 0.3s ease, outline 0.3s ease;
+    /* Add transition for both color and outline */
+}
+
+
+/* Add this to your CSS to style the filled icon */
+
+.RoomDetail .SaveIcon.SavedIcon {
+    color: orange;
+    background-color: #fff;
+    border: 2px solid orange;
+}
+
+.TotalPrice {
+    font-weight: 600;
+    margin-top: 10px;
+    color: #000000;
+}
+
+
+/* CSS untuk tombol "addCart" */
+
+.RoomDetail .addCart {
+    background-color: transparent;
+    color: #6f3b00;
+    border: 2px solid #6f3b00;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#bookButton {
+    background-color: #b27400;
+    color: white;
+    border: none;
+    padding: 8px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+#bookButton:hover {
+    background-color: #5a420b;
+}
