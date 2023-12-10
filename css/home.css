@@ -1,5 +1,3 @@
-/* Setting Page without white space(Biar full ga ada space) */
-
 html,
 body {
     margin: 0;
@@ -7,8 +5,6 @@ body {
     font-family: 'Galdeano-Regular', sans-serif;
 }
 
-
-/* =========== NAVBAR STYLING ============*/
 
 .Navbar {
     display: flex;
@@ -53,12 +49,6 @@ a.active {
     font-size: 12px;
 }
 
-
-/* Add this to your existing CSS file or create a new one */
-
-
-/* ... Your existing styles ... */
-
 .ProfileInfo {
     display: flex;
     align-items: center;
@@ -76,8 +66,6 @@ a.active {
     cursor: pointer;
 }
 
-
-/* Updated styling for Logout Options */
 
 .LogoutOptions {
     display: none;
@@ -112,8 +100,6 @@ a.active {
     border-radius: 4px;
 }
 
-
-/* =========== LP STYLING ============*/
 
 .Content {
     display: flex;
@@ -183,8 +169,6 @@ a.active {
 }
 
 
-/* =========== ARTICLE STYLING ============*/
-
 .Article {
     background: linear-gradient(180deg, rgba(220, 178, 66, 1.00) 1.0416666977107525%, rgba(255, 254, 251, 1.00) 38.54166567325592%, rgba(254, 254, 254, 1.00) 100%);
     padding-left: 40px;
@@ -230,8 +214,6 @@ p {
     margin-top: 12px;
 }
 
-
-/* =========== SERVICE STYLING ============*/
 
 .serviceSec {
     background: #ffffff;
@@ -284,8 +266,6 @@ p {
 }
 
 
-/* =========== PROMO STYLING ============*/
-
 .promoSec {
     display: flex;
     justify-content: center;
@@ -295,8 +275,6 @@ p {
     background: linear-gradient(180deg, rgba(254, 254, 254, 1.00) 0%, rgba(255, 254, 251, 1.00) 4.16666679084301%, rgba(220, 178, 66, 1.00) 100%);
     border-color: rgba(0, 0, 0, 0.00);
     border-width: 1px;
-    /* width: 1512px; */
-    /* Remove fixed width */
     height: 319px;
     position: relative;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
@@ -373,8 +351,6 @@ p {
 }
 
 
-/* =========== FOOTER STYLING ============*/
-
 .Sponsor {
     background: #333;
     padding-bottom: 20px;
@@ -396,8 +372,8 @@ p {
 }
 
 .SocialIcons {
-    text-align: center; /* Pusatkan ikon media sosial */
-    margin-top: 10px; /* Atur jarak dari konten lainnya */
+    text-align: center; 
+    margin-top: 10px; 
 }
 
 .SocialIcons a {

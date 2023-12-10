@@ -1,5 +1,3 @@
-// registration.js
-
 function registerUser() {
     const name = document.getElementById('name').value;
     const email = document.getElementById('email').value;
@@ -13,7 +11,7 @@ function registerUser() {
         if (name && email && password && username) {
             saveDataLocally(name, email, username, password);
             showDialog("Successful", "Congrats! Your account has been created.");
-            window.location.href = "login.html"; // Redirect to login page
+            window.location.href = "login.html";
         } else {
             showDialog("Failed", "Please fill in all the required fields.");
         }

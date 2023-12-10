@@ -9,13 +9,6 @@ body {
     margin-top: 20px;
 }
 
-
-/* .logo img {
-  width: 100px;
-  height: auto;
-  margin-bottom: 10px
-} */
-
 .h2 {
     text-align: center;
 }
@@ -30,29 +23,21 @@ body {
     text-align: center;
 }
 
-
-/* Add this to your existing CSS file */
-
 h2 {
     margin: 0 0 40px;
     margin-top: 20px;
     font-family: 'Galdeano-Regular', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     position: relative;
     font-size: 18px;
-    /* Add relative positioning */
 }
 
 h2::after {
     content: '';
     display: block;
     width: 150px;
-    /* Adjust the width of the line as needed */
     height: 2px;
-    /* Adjust the height/thickness of the line as needed */
     background-color: #937831;
-    /* Line color */
     margin-top: 8px;
-    /* Adjust the distance between the text and the line as needed */
     position: absolute;
     left: 50%;
     transform: translateX(-50%);

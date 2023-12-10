@@ -1,4 +1,3 @@
-// get data from localstorage by id
 const cartItems = JSON.parse(localStorage.getItem('cartItems'));
 
 
@@ -6,13 +5,11 @@ if (cartItems && cartItems.length > 0) {
     const cartContents = document.getElementById('cartContents');
     cartItems.forEach((item) => {
         const listItem = document.createElement('li');
-        // showing item products
         listItem.textContent = `${item.name} - Rp ${item.price} x ${item.quantity}`;
         cartContents.appendChild(listItem);
     });
 }
 
-// get payment details from localstorage by id and this is from JS in products page
 const totalPaymentDetails = JSON.parse(localStorage.getItem('totalPaymentDetails'));
 const savedCartItems = JSON.parse(localStorage.getItem('savedItems'));
 if (totalPaymentDetails) {
@@ -32,15 +29,11 @@ function showDialog(title, message) {
 }
 
 function buyItems() {
-    // Save booked items to local storage
     localStorage.setItem('bookedItems', JSON.stringify(cartItems));
 
-    // Show confirmation dialog
     showDialog("Thank you for Your Booking!", "Your receipt will be sent to your email.");
 
-    // Log a message to the console
     console.log("Items purchased:", cartItems);
 
-    // Redirect to the My Booking page
     window.location.href = "myBooking.html";
 }

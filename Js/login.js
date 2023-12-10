@@ -1,5 +1,3 @@
-// login.js
-
 function loginUser() {
     const loginUsername = document.getElementById('loginUsername').value;
     const loginPassword = document.getElementById('loginPassword').value;
@@ -14,7 +12,7 @@ function loginUser() {
 
     if (loginUsername === registrationData.username && loginPassword === registrationData.password) {
         showDialog("Success", "Login successful!");
-        window.location.href = "home.html"; // Redirect to home page
+        window.location.href = "home.html";
     } else {
         showDialog("Error", "Invalid username or password.");
     }

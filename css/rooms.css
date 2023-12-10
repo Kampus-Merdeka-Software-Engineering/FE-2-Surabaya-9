@@ -5,9 +5,6 @@ body {
     font-family: 'Galdeano-Regular', sans-serif;
 }
 
-
-/* =========== NAVBAR STYLING ============*/
-
 .Navbar {
     display: flex;
     justify-content: space-between;
@@ -57,17 +54,11 @@ a.active {
     margin-right: 10px;
 }
 
-
-/* =========== CARD STYLING ============*/
-
 .Content {
     padding: 40px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
-
-
-/* Style the product categories filter */
 
 .SubFilter {
     margin-bottom: 8px;
@@ -118,7 +109,6 @@ hr {
     padding: 0;
     display: flex;
     flex-direction: column;
-    /* vertical styling card */
 }
 
 .BookingDetails ul li {
@@ -142,9 +132,6 @@ hr {
     padding: 20px;
     border-radius: 5px;
 }
-
-
-/* room-cards.css */
 
 .Product.RoomCard {
     position: relative;
@@ -174,7 +161,6 @@ hr {
     flex-direction: column;
     justify-content: space-between;
     height: 100%;
-    /* Ensure ProductDetail takes full height */
     padding: 16px;
 }
 
@@ -201,9 +187,7 @@ hr {
     font-size: 14px;
     margin-top: -40px;
     margin-bottom: 24px;
-    /* Push MaxOccupancy to the bottom */
     align-self: flex-end;
-    /* Align MaxOccupancy to the flex-end */
     color: #555;
     font-style: italic;
 }
@@ -233,13 +217,8 @@ hr {
     font-size: 20px;
     cursor: pointer;
     outline: 2px solid transparent;
-    /* Add an initial transparent outline */
     transition: color 0.3s ease, outline 0.3s ease;
-    /* Add transition for both color and outline */
 }
-
-
-/* Add this to your CSS to style the filled icon */
 
 .RoomDetail .SaveIcon.SavedIcon {
     color: orange;
@@ -252,9 +231,6 @@ hr {
     margin-top: 10px;
     color: #000000;
 }
-
-
-/* CSS untuk tombol "addCart" */
 
 .RoomDetail .addCart {
     background-color: transparent;

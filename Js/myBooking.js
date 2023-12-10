@@ -1,11 +1,8 @@
-//=========== Read Username data from local ==========================
 const userData = JSON.parse(localStorage.getItem('registrationData'));
 if (userData && userData.name) {
-    // show username 
     const userNameElement = document.getElementById('userName');
     userNameElement.textContent = userData.username;
 }
-// Retrieve booked items from local storage
 const bookedItems = JSON.parse(localStorage.getItem('bookedItems'));
 
 if (bookedItems && bookedItems.length > 0) {
@@ -14,7 +11,6 @@ if (bookedItems && bookedItems.length > 0) {
         const bookingCard = document.createElement('div');
         bookingCard.classList.add('BookingCard');
 
-        // Display booked item details
         bookingCard.innerHTML = `
             <img class="RoomImage" src="images/${item.id}.png" alt="${item.name}">
             <div class="RoomDetail">
@@ -29,20 +25,16 @@ if (bookedItems && bookedItems.length > 0) {
     });
 }
 
-// Event listener for canceling a booked item
 bookingHistory.addEventListener('click', cancelBooking);
 
 function cancelBooking(e) {
     if (e.target.classList.contains('CancelButton')) {
         const id = e.target.getAttribute('data-id');
 
-        // Remove the canceled item from bookedItems
         const updatedBookedItems = bookedItems.filter(item => item.id !== id);
 
-        // Update local storage with the updated bookedItems
         localStorage.setItem('bookedItems', JSON.stringify(updatedBookedItems));
 
-        // Refresh the page to reflect the changes
         window.location.reload();
     }
 }
