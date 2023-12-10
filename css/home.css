@@ -16,6 +16,10 @@ body {
     align-items: center;
     background-color: rgb(23, 16, 9);
     padding: 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
 }
 
 .Logo {
@@ -380,50 +384,34 @@ p {
     padding-bottom: 20px;
 }
 
-.LogoImage {
-    max-width: 60%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-}
-
 .Footer {
     background-color: #000000;
     color: #fff;
     text-align: center;
-    padding: 40px;
-    padding-bottom: 10px;
+    padding: 5px;
+    padding-bottom: 5px;
 }
 
 .FooterContent {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
 }
 
-.FooterLogo {
-    margin-right: 20px;
-}
-
-.FooterLinks ul {
-    list-style: none;
-    padding: 0;
-}
-
-.FooterLinks li {
-    display: inline;
-    margin-right: 20px;
+.SocialIcons {
+    text-align: center; /* Pusatkan ikon media sosial */
+    margin-top: 10px; /* Atur jarak dari konten lainnya */
 }
 
 .SocialIcons a {
     text-decoration: none;
     color: #fff;
-    margin-right: 24px;
+    margin: 0 30px;
 }
 
 .CopyrightText {
     font-size: 12px;
     font-style: italic;
-    margin-top: 40px;
+    margin-top: 30px;
 }

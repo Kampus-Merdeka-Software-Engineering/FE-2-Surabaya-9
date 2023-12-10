@@ -9,6 +9,9 @@ document.addEventListener('DOMContentLoaded', function() {
     const loginButton = document.getElementById('loginButton');
     const logoutButton = document.getElementById('logoutButton');
 
+    // Get the navbar element
+    const navbar = document.querySelector('.Navbar');
+
     // Check if the user is logged in
     if (userData && userData.name) {
         // User is logged in
@@ -51,4 +54,15 @@ document.addEventListener('DOMContentLoaded', function() {
             logoutButton.style.display = 'none';
         }
     }
+
+    // Add scroll event listener to update navbar style
+    window.addEventListener('scroll', function() {
+        if (window.scrollY > 0) {
+            // Add a class to navbar when scrolled
+            navbar.classList.add('scrolled');
+        } else {
+            // Remove the class when at the top
+            navbar.classList.remove('scrolled');
+        }
+    });
 });
