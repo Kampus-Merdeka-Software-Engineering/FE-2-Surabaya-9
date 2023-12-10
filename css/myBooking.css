@@ -91,7 +91,7 @@ a.active {
 }
 
 .BookingCard .RoomImage {
-    width: 100%;
+    width: 200%;
     height: 200px;
     object-fit: cover;
     border-bottom: 1px solid #ddd;
